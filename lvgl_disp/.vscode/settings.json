@@ -1,0 +1,14 @@
+{
+    "idf.adapterTargetName": "esp32",
+    "idf.portWin": "COM18",
+    "files.associations": {
+        "shell_x": "shellscript",
+        "disp_driver.h": "c",
+        "lv_port_disp.h": "c",
+        "lv_demo_music.h": "c",
+        "lvgl.h": "c"
+    },
+    "idf.openOcdConfigs": [
+        "board/esp32-wrover-kit-3.3v.cfg"
+    ]
+}
