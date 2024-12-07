@@ -23,7 +23,7 @@
 #include "esp_spi_flash.h"
 #include "lvgl.h"
 #include "lv_port_disp.h"
-#include "lv_demos.h"
+
 
 /*用定时器给LVGL提供时钟*/
 static void lv_tick_task(void *arg)
@@ -52,6 +52,6 @@ void app_main(void)
     {
         lv_task_handler();
         /* lv_tick_inc(10); //12/04bug修改 开定时器后就可以关闭了*/
-        vTaskDelay(pdMS_TO_TICKS(10));
+        //vTaskDelay(pdMS_TO_TICKS(10));
     }
 }
